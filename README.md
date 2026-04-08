@@ -12,6 +12,7 @@ The implementation focuses on clean component architecture, predictable state ma
 
 - Live Demo: https://calendernotesme.vercel.app/
 - Source Code: https://github.com/kalicharm21/calenderme
+- Loom Video : https://www.loom.com/share/f059b4dbc7c747e79ab890f56b2ea43c 
 
 ---
 
