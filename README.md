@@ -1,15 +1,10 @@
-Below is a **minimal, professional, and technically focused `README.md`** aligned with the challenge. No emojis, clean structure, and placeholders for your links.
-
----
-
-```markdown
 # CalenderMe — Interactive Wall Calendar Component
 
 ## Frontend Engineering Challenge Submission
 
-CalenderMe is a high-fidelity interactive calendar component built using React and TypeScript. The goal of this project is to translate a static wall calendar design into a functional, responsive, and production-ready frontend system.
+CalenderMe is a high-fidelity interactive calendar component built using React and TypeScript. The project translates a static wall calendar design into a functional, responsive, and production-ready frontend system.
 
-This implementation focuses on component architecture, state management, motion design, and performance optimization while strictly adhering to a frontend-only scope.
+The implementation focuses on clean component architecture, predictable state management, smooth interaction design, and performance optimization while strictly adhering to a frontend-only scope.
 
 ---
 
@@ -24,9 +19,9 @@ This implementation focuses on component architecture, state management, motion 
 ## Core Requirements Implementation
 
 ### Wall Calendar Aesthetic
-- Structured layout with a dedicated visual section and calendar grid
-- Layered UI with depth using shadows and spacing
+- Structured layout combining visual section and calendar grid
 - Clear visual hierarchy between elements
+- Use of shadows and spacing to simulate depth
 
 ### Day Range Selector
 - Supports start and end date selection
@@ -34,69 +29,69 @@ This implementation focuses on component architecture, state management, motion 
   - Start date
   - End date
   - Intermediate range
-- Smooth state transitions
+- Smooth transitions between states
 
 ### Notes Section
-- Notes can be associated with dates or date ranges
-- Full CRUD operations
-- Inline editing and state updates
+- Notes associated with dates or date ranges
+- Full CRUD functionality
+- Inline editing and updates
 
 ### Responsive Design
-- Desktop: Split layout with calendar and notes panel
-- Mobile: Stacked layout with touch-friendly interactions
-- Layout adapts without loss of functionality
+- Desktop: Split layout (calendar + notes)
+- Tablet: Compact split layout
+- Mobile: Fully stacked layout with touch support
+- No loss of functionality across breakpoints
 
 ---
 
 ## Technical Stack
 
-Frontend:
+**Frontend**
 - React
 - TypeScript
 - Tailwind CSS
 - Framer Motion
 - React Three Fiber
 
-Utilities:
+**Utilities**
 - date-fns
 
-Tooling:
+**Tooling**
 - Vite
 - ESLint
 - TypeScript Compiler
 
 ---
 
-## Architecture
-
-```
-
+## Project Structure
 src/
 ├── components/
-│   ├── calendar/
-│   ├── notes/
-│   └── Index.tsx
+│ ├── calendar/
+│ ├── notes/
+│ └── Index.tsx
 ├── context/
-│   └── CalendarContext.tsx
+│ └── CalendarContext.tsx
 ├── utils/
 └── styles/
 
-````
+---
 
-### State Management
-- React Context with useReducer
-- Centralized state for:
+## State Management
+
+- Implemented using React Context with useReducer
+- Centralized state handling:
   - Selected date range
   - Notes data
   - Theme configuration
+- Ensures predictable and scalable state updates
 
 ---
 
 ## Key Technical Decisions
 
 ### State Handling
-- Context API used to avoid unnecessary external dependencies
-- Reducer pattern ensures predictable state transitions
+- Context API chosen to avoid unnecessary dependencies
+- Reducer pattern ensures maintainability and clarity
 
 ### Animation
 - Framer Motion used for layout transitions and interaction feedback
@@ -104,27 +99,27 @@ src/
 
 ### Rendering
 - React Three Fiber used for background rendering
-- Optimized using demand-based render loop
+- Optimized with demand-based render loop
 
 ### Persistence
-- localStorage used for client-side data persistence
-- No backend or external API involved
+- localStorage used for client-side persistence
+- No backend or external APIs used
 
 ---
 
 ## Performance
 
-- Optimized rendering to minimize unnecessary re-renders
+- Optimized rendering to minimize re-renders
 - Efficient animation handling
 - Lightweight bundle with modular components
-- Stable layout with no cumulative shifts
+- Stable layout with minimal layout shifts
 
 ---
 
 ## Responsiveness
 
 | Device   | Layout        |
-|----------|--------------|
+|----------|---------------|
 | Mobile   | Stacked       |
 | Tablet   | Split (60/40) |
 | Desktop  | Split (75/25) |
@@ -134,33 +129,11 @@ src/
 ## Running Locally
 
 ```bash
-git clone <REPO_LINK>
+git clone (https://github.com/kalicharm21/calenderme/)
 cd calenderme
 npm install
 npm run dev
-````
 
----
-
-## Evaluation Alignment
-
-* Code Quality: Strong typing, modular structure
-* Component Design: Reusable and isolated components
-* UI/UX: Consistent interaction patterns and visual clarity
-* Responsiveness: Fully adaptive layouts
-* Scope Compliance: Frontend-only with client-side persistence
-
----
-
-## Author
+Author
 
 Ishaan Mittal
-
-```
-
----
-
-If you want, I can next:
-- compress this into a **1-page recruiter version**
-- or create a **perfect 3-minute Loom script aligned with this README**
-```
