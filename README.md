@@ -10,7 +10,7 @@ The implementation focuses on clean component architecture, predictable state ma
 
 ## Links
 
-- Live Demo: <ADD_DEPLOYED_LINK>
+- Live Demo: https://calendernotesme.vercel.app/
 - Video Demonstration: <ADD_LOOM_LINK>
 - Source Code: <ADD_GITHUB_LINK>
 
